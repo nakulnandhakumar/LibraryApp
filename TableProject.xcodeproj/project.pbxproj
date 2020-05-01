@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7262B1245BC38000F43852 /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7262B0245BC38000F43852 /* BookTableViewController.swift */; };
+		DA7262B3245BC41500F43852 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7262B2245BC41500F43852 /* BookTableViewCell.swift */; };
 		DAE7A17C245BAD15009C885F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A17B245BAD15009C885F /* AppDelegate.swift */; };
 		DAE7A17E245BAD15009C885F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A17D245BAD15009C885F /* SceneDelegate.swift */; };
-		DAE7A180245BAD15009C885F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A17F245BAD15009C885F /* ViewController.swift */; };
 		DAE7A183245BAD15009C885F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE7A181245BAD15009C885F /* Main.storyboard */; };
 		DAE7A186245BAD15009C885F /* TableProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A184245BAD15009C885F /* TableProject.xcdatamodeld */; };
 		DAE7A188245BAD17009C885F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE7A187245BAD17009C885F /* Assets.xcassets */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA7262B0245BC38000F43852 /* BookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
+		DA7262B2245BC41500F43852 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 		DAE7A178245BAD15009C885F /* TableProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE7A17B245BAD15009C885F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE7A17D245BAD15009C885F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAE7A17F245BAD15009C885F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAE7A182245BAD15009C885F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAE7A185245BAD15009C885F /* TableProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableProject.xcdatamodel; sourceTree = "<group>"; };
 		DAE7A187245BAD17009C885F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,8 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				DAE7A17B245BAD15009C885F /* AppDelegate.swift */,
+				DA7262B0245BC38000F43852 /* BookTableViewController.swift */,
+				DA7262B2245BC41500F43852 /* BookTableViewCell.swift */,
 				DAE7A17D245BAD15009C885F /* SceneDelegate.swift */,
-				DAE7A17F245BAD15009C885F /* ViewController.swift */,
 				DAE7A181245BAD15009C885F /* Main.storyboard */,
 				DAE7A187245BAD17009C885F /* Assets.xcassets */,
 				DAE7A189245BAD17009C885F /* LaunchScreen.storyboard */,
@@ -262,10 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE7A186245BAD15009C885F /* TableProject.xcdatamodeld in Sources */,
-				DAE7A180245BAD15009C885F /* ViewController.swift in Sources */,
 				DAE7A17C245BAD15009C885F /* AppDelegate.swift in Sources */,
+				DA7262B1245BC38000F43852 /* BookTableViewController.swift in Sources */,
+				DA7262B3245BC41500F43852 /* BookTableViewCell.swift in Sources */,
 				DAE7A17E245BAD15009C885F /* SceneDelegate.swift in Sources */,
+				DAE7A186245BAD15009C885F /* TableProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5R37RK69M;
 				INFOPLIST_FILE = TableProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5R37RK69M;
 				INFOPLIST_FILE = TableProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
