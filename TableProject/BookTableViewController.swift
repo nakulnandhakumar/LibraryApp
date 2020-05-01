@@ -10,8 +10,6 @@ import UIKit
 import CoreData
 
 class BookTableViewController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-
-    //var myBooks = [["book":"Harry Potter","image":"nature1","author":"J.K. Rowling"],["book":"Percy Jackson","image":"nature2","author":"Rick Riordan"],["book":"The Comet's Curse","image":"nature3","author":"Dom Testa"],["book":"Sleeping Night","image":"nature4","author":"Carol Smith"]]
     
     var books = [Books]()
     
